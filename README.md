@@ -18,6 +18,7 @@ Flexbox follows two axis that determine the layour direction of flex items
 
 ---
 
+
 ### Flexbox Axes
 
 #### Main axis
@@ -35,6 +36,8 @@ Flexbox follows two axis that determine the layour direction of flex items
 - For instance you can change the horizontal column layout
 
 ---
+
+
 ### Distributing Space Inside a Flex Container (`justify-content`)
 
 #### Justify Content
@@ -62,6 +65,9 @@ The justify-content property lets you control the position and alignment of flex
 ## Item 1 will absorb any extra space around a flex item and push other flex items into different positions
 ```
 
+---
+
+
 ### Changing the Order of Flex Items (`order`)
 
 By default, flex items are laid out in the order they appear in the source code. We can use the `order` property to change the order of any flex item.
@@ -73,6 +79,8 @@ By default, flex items are laid out in the order they appear in the source code.
 - `order` places flex items relative to the other items' order values.
 - To place a flex item before another item, it needs to have a lower order value than the item.
 - To place a flex item after another item, it needs to have a higher order value than the item.
+
+---
 
 ### Growing Flex Items (`flex-glow`)
 With flexbox you can make flex items grow or shrink in relation to other flex items and the available space inside the flex container.
@@ -88,6 +96,8 @@ Links:
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
 [`flex-grow` is weird. Or is it?](https://css-tricks.com/flex-grow-is-weird/)
 
+---
+
 ### Smarter Layouts with flex-basis and flex
 
 - `flex` and `flex-basis` apply to flex items only.
@@ -102,6 +112,8 @@ Links:
 [`flex` MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex?v=example),
 [`flex-basis` MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis?v=example),
 [`flex-shrink` MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink?v=example)
+
+---
 
 
 ### Aligning Flex Items on the Cross Axis
@@ -121,6 +133,8 @@ Learn how to align flex items on the cross axis with the align-items and align-s
 Links:
 [`align-items` MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items?v=example)
 [`align-self` MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
+
+---
 
 ### Vertical and Horizontal Centering
 
