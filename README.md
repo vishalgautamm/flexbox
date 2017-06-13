@@ -1,28 +1,30 @@
 # Flexbox
 
-## Two most important features
+### Two most important features
 - Flex containers
 - Flex items
 
-### Flex Container
+#### Flex Container
 - Sets the context for flexbox layout
 - Contains flex items, the actual elements you layout using flexbox
 - Can be any block-element or inline element
 
-### Flex Item
+#### Flex Item
 
 - Every direct child of a dlex conainer
 - There can be any number of flex items inside a flex container
 
 Flexbox follows two axis that determine the layour direction of flex items
 
-## Flexbox Axes
+---
 
-### Main axis
+### Flexbox Axes
+
+#### Main axis
 - Main axis is the primary axis, along with flex items are laid out
 - It determines the direction of flex items in flex container
 
-### Cross axis
+#### Cross axis
 - Runs perpendicular to the main axis
 
 - Each axis has a start side and an end side
@@ -32,7 +34,7 @@ Flexbox follows two axis that determine the layour direction of flex items
 - But you can easily change the directions
 - For instance you can change the horizontal column layout
 
-
+---
 ### Distributing Space Inside a Flex Container (`justify-content`)
 
 #### Justify Content
