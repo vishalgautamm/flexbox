@@ -82,7 +82,7 @@ By default, flex items are laid out in the order they appear in the source code.
 
 ---
 
-### Growing Flex Items (`flex-glow`)
+### Growing Flex Items (`flex-grow`)
 With flexbox you can make flex items grow or shrink in relation to other flex items and the available space inside the flex container.
 
 - The `flex-grow` property applies to flex items only.
